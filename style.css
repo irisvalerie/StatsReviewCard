@@ -45,7 +45,7 @@ span{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     position: relative;
-    bottom: 362px;
+    bottom: 365px;
     z-index: 1;
 }
 
@@ -90,7 +90,7 @@ span{
 
     .purple{
         width: 430px;
-        height: 446px;
+        height: 447px;
         opacity: 0.5;
         position: relative;
         right: 533px;
