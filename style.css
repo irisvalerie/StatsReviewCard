@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+
+.frame{
+    background-color: hsl(244, 38%, 16%);
+    height: 430px;
+    width: 1040px;
+    margin: 155px auto;
+    border-radius: 10px;
+    background-image: url(images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 48.75% 100%;
+}
+
+.frame > p{
+    color: white;
+    padding-top: 80px;
+    padding-left: 64px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    width: 450px;
+    font-size: 35px;
+
+}
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+.purple{
+    width: 48.75%;
+    height: 100%;
+    background-color: hsl(277, 88%, 35%);
+    margin-left: 533px;
+    opacity: 0.5;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    bottom: 362px;
+    z-index: 1;
+}
+
+.paragraph{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 25px;
+    left: 65px;
+    width: 370px;
+    line-height: 1.5rem;
+    
+}
+
+
+.data {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.data > p{
+    font-size: 13px;
+    color: hsla(0, 0%, 100%, 0.6);
+    line-height: 25px;
+}
+.data > h4{
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1000px){
+    .frame{
+        height: 750px;
+        width: 430px;
+        margin: 10px auto;
+        background-size: auto;
+        background-position: top;
+    }
+
+    .purple{
+        width: 430px;
+        height: 446px;
+        opacity: 0.5;
+        position: relative;
+        right: 533px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 10px;
+    }
+
+    .frame > p{
+        position: relative;
+        top: 390px;
+        right: 30px;
+    }
+
+    .paragraph{
+        position: relative;
+        top: 405px;
+        left: 35px;
+    }
+
+    .data{
+        position: relative;
+        top: 370px;
+        right: 30px;
+        width: 70px;
+    } 
+}
